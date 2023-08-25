@@ -1,0 +1,2572 @@
+[
+  {
+    "timetable": [
+      {
+        "id": "a8e98bf9-c991-47bc-a28c-c8ed4a1280ff",
+        "day": "Monday",
+        "period": 33782,
+        "subject": "Mathematics",
+        "created_at": "2023-08-25T05:29:52.119Z",
+        "updated_at": "2023-08-24T18:19:39.813Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad8ae217-6c41-47c1-bfd8-346cf470e908",
+        "day": "Tuesday",
+        "period": 51411,
+        "subject": "Science",
+        "created_at": "2023-08-25T11:39:45.209Z",
+        "updated_at": "2023-08-25T06:18:57.889Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4dea1f6-e7d9-40c3-963c-ca23205b55d7",
+        "day": "Wednesday",
+        "period": 15309,
+        "subject": "English",
+        "created_at": "2023-08-25T09:59:30.451Z",
+        "updated_at": "2023-08-25T14:45:50.226Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa6be2c0-bb16-4e05-b4f1-f8d04dd96970",
+        "day": "Thursday",
+        "period": 22443,
+        "subject": "History",
+        "created_at": "2023-08-25T17:01:18.376Z",
+        "updated_at": "2023-08-25T02:27:04.756Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e54b15f-4cf9-491c-8063-9fbb831dd7d3",
+        "day": "Friday",
+        "period": 23528,
+        "subject": "Art",
+        "created_at": "2023-08-25T08:25:27.216Z",
+        "updated_at": "2023-08-25T01:53:37.154Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fee": [
+      {
+        "id": "0fb7b582-492c-4ac2-9b0b-1cc98917c660",
+        "amount": 79678,
+        "due_date": "2023-08-25T08:53:42.028Z",
+        "status": "Paid",
+        "created_at": "2023-08-24T23:16:39.943Z",
+        "updated_at": "2023-08-25T07:19:13.646Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7cba4e6-e91b-4940-a34f-0c4ac6567348",
+        "amount": 41202,
+        "due_date": "2023-08-25T14:49:03.644Z",
+        "status": "Pending",
+        "created_at": "2023-08-25T09:44:02.449Z",
+        "updated_at": "2023-08-25T06:44:50.869Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "490c02d5-c951-41dc-bda7-67f23006ca5f",
+        "amount": 57212,
+        "due_date": "2023-08-25T00:23:21.075Z",
+        "status": "Overdue",
+        "created_at": "2023-08-25T05:46:37.122Z",
+        "updated_at": "2023-08-25T14:29:50.498Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a846ee8-3187-4d38-a37e-77c89e0d3a70",
+        "amount": 81034,
+        "due_date": "2023-08-25T01:06:26.689Z",
+        "status": "Waived",
+        "created_at": "2023-08-25T01:47:55.960Z",
+        "updated_at": "2023-08-25T16:06:25.398Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e921fb3-b5c4-47eb-b378-0d4168ab8500",
+        "amount": 54247,
+        "due_date": "2023-08-25T15:38:34.123Z",
+        "status": "Refunded",
+        "created_at": "2023-08-25T01:10:01.786Z",
+        "updated_at": "2023-08-25T05:24:06.860Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "exam": [
+      {
+        "id": "8d1e3db5-f47c-4cc9-ba68-31fcc98509d5",
+        "name": "Midterm Exam",
+        "date": "2023-08-24T22:24:08.507Z",
+        "total_marks": 98189,
+        "obtained_marks": 25548,
+        "created_at": "2023-08-25T14:12:34.972Z",
+        "updated_at": "2023-08-24T22:36:36.283Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eac48538-cb6b-44b8-8d52-fc1a09a7c79f",
+        "name": "Final Exam",
+        "date": "2023-08-24T20:15:37.924Z",
+        "total_marks": 54448,
+        "obtained_marks": 88776,
+        "created_at": "2023-08-24T17:52:05.830Z",
+        "updated_at": "2023-08-25T03:44:49.025Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d0d2719-7bb9-4ef7-8950-26e54d512179",
+        "name": "Unit Test",
+        "date": "2023-08-25T09:34:29.368Z",
+        "total_marks": 59758,
+        "obtained_marks": 72382,
+        "created_at": "2023-08-25T12:20:20.450Z",
+        "updated_at": "2023-08-25T03:45:14.113Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9180a026-069f-4527-a976-85a589150d35",
+        "name": "Quiz",
+        "date": "2023-08-25T12:01:17.127Z",
+        "total_marks": 11826,
+        "obtained_marks": 5427,
+        "created_at": "2023-08-25T01:08:26.790Z",
+        "updated_at": "2023-08-24T17:50:03.750Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97666fb0-fb54-470d-9fc9-b279e96e165a",
+        "name": "Practical Exam",
+        "date": "2023-08-25T17:22:12.075Z",
+        "total_marks": 41094,
+        "obtained_marks": 54244,
+        "created_at": "2023-08-25T06:32:05.942Z",
+        "updated_at": "2023-08-24T17:47:49.526Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "59f6f379-bd42-4439-a5d9-13d594e7be96",
+        "date": "2023-08-25T03:12:56.663Z",
+        "status": "Present",
+        "created_at": "2023-08-25T02:00:50.754Z",
+        "updated_at": "2023-08-25T02:16:58.491Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e45d238-491e-4b74-adfa-f142a22780d5",
+        "date": "2023-08-24T20:07:17.733Z",
+        "status": "Absent",
+        "created_at": "2023-08-25T15:01:18.667Z",
+        "updated_at": "2023-08-25T11:30:14.246Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5c0dd3b-3b93-4785-af44-beaea9209676",
+        "date": "2023-08-25T16:59:17.852Z",
+        "status": "Late",
+        "created_at": "2023-08-24T22:14:40.785Z",
+        "updated_at": "2023-08-25T11:01:56.128Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "328160d0-fad8-4be0-9454-fd1645a1c915",
+        "date": "2023-08-25T15:07:40.442Z",
+        "status": "Excused",
+        "created_at": "2023-08-25T14:20:01.824Z",
+        "updated_at": "2023-08-25T15:03:22.545Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8547f06d-4b43-46da-aa02-fc4bfc27ffc7",
+        "date": "2023-08-24T19:16:33.666Z",
+        "status": "Tardy",
+        "created_at": "2023-08-25T05:24:34.295Z",
+        "updated_at": "2023-08-25T12:41:55.565Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "741d8e1d-9f74-44ae-8e6a-1a1188867086",
+        "email": "Madge_Emmerich-Goodwin13@gmail.com",
+        "firstName": "Tillman",
+        "lastName": "Medhurst",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1221.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "af59a2d4-f0d3-4687-905e-a44025bb5396",
+        "email": "Jeffrey_Jones86@gmail.com",
+        "firstName": "Abagail",
+        "lastName": "Hettinger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13125877",
+        "tenantId": null
+      },
+      {
+        "reference": "0daa6953-6db3-4b55-818e-39703a901cfb",
+        "email": "Hanna.Spinka4@yahoo.com",
+        "firstName": "Eva",
+        "lastName": "Bernhard",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31499365",
+        "tenantId": null
+      },
+      {
+        "reference": "e69d082a-32d0-45dc-97fc-b1c97a2c1a76",
+        "email": "Israel28@yahoo.com",
+        "firstName": "Casimer",
+        "lastName": "Davis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27647054",
+        "tenantId": null
+      },
+      {
+        "reference": "70115dd5-2869-48e7-a608-708feb463844",
+        "email": "Adele60@gmail.com",
+        "firstName": "Phoebe",
+        "lastName": "Rogahn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70629341",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "timetable": [
+      {
+        "id": "c33e8971-264f-475c-b866-5499f0d16374",
+        "day": "Monday",
+        "period": 70186,
+        "subject": "Mathematics",
+        "created_at": "2023-08-25T07:22:26.703Z",
+        "updated_at": "2023-08-25T07:55:36.726Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3f6f915-6a95-46a2-93ad-de56554539df",
+        "day": "Tuesday",
+        "period": 78896,
+        "subject": "Science",
+        "created_at": "2023-08-25T10:18:43.638Z",
+        "updated_at": "2023-08-25T07:22:21.106Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9642f0ea-c51d-4ce5-9092-43016eb86543",
+        "day": "Wednesday",
+        "period": 12764,
+        "subject": "English",
+        "created_at": "2023-08-25T11:30:51.734Z",
+        "updated_at": "2023-08-25T16:45:30.010Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b13ed8e-67a0-41f8-8156-f3eb42d8b7ed",
+        "day": "Thursday",
+        "period": 58037,
+        "subject": "History",
+        "created_at": "2023-08-25T11:55:51.831Z",
+        "updated_at": "2023-08-25T04:05:10.209Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b887d8ba-2cdd-45ac-a2a8-9fff3a06a5fb",
+        "day": "Friday",
+        "period": 87123,
+        "subject": "Art",
+        "created_at": "2023-08-25T16:40:36.127Z",
+        "updated_at": "2023-08-25T12:02:08.324Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fee": [
+      {
+        "id": "742ec613-9b0a-475c-84ff-97341dca3195",
+        "amount": 65805,
+        "due_date": "2023-08-24T20:48:18.400Z",
+        "status": "Paid",
+        "created_at": "2023-08-25T05:15:06.034Z",
+        "updated_at": "2023-08-25T06:04:11.645Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58de7014-a9c3-4ba8-954b-2217cb79b81a",
+        "amount": 51786,
+        "due_date": "2023-08-25T02:13:31.034Z",
+        "status": "Unpaid",
+        "created_at": "2023-08-25T03:18:05.205Z",
+        "updated_at": "2023-08-25T14:15:34.456Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf4c2265-f9d0-4fef-9a7b-a77fa9de5858",
+        "amount": 98278,
+        "due_date": "2023-08-24T22:51:41.847Z",
+        "status": "Pending",
+        "created_at": "2023-08-25T05:26:08.868Z",
+        "updated_at": "2023-08-25T07:50:44.936Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5be4c137-0328-455b-8206-c040e6a82e42",
+        "amount": 82263,
+        "due_date": "2023-08-25T02:54:32.508Z",
+        "status": "Overdue",
+        "created_at": "2023-08-25T06:06:23.003Z",
+        "updated_at": "2023-08-25T10:06:57.004Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c62e9f6-ff0f-4589-adc5-e9e1a6000afe",
+        "amount": 54989,
+        "due_date": "2023-08-24T19:41:58.149Z",
+        "status": "Waived",
+        "created_at": "2023-08-25T16:03:58.316Z",
+        "updated_at": "2023-08-25T17:02:19.967Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "exam": [
+      {
+        "id": "7616a1d3-957e-471a-9f2a-ae024e4b5f70",
+        "name": "Midterm Exam",
+        "date": "2023-08-25T06:33:02.455Z",
+        "total_marks": 8496,
+        "obtained_marks": 47592,
+        "created_at": "2023-08-25T03:14:10.265Z",
+        "updated_at": "2023-08-25T05:33:15.085Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8b13322-b57f-4505-b278-d2752ecc8821",
+        "name": "Final Exam",
+        "date": "2023-08-25T14:10:16.806Z",
+        "total_marks": 5138,
+        "obtained_marks": 3145,
+        "created_at": "2023-08-24T18:06:23.765Z",
+        "updated_at": "2023-08-25T13:59:15.473Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2bbdb4c1-c6e4-45af-a872-c299cc7e2fe1",
+        "name": "Unit Test",
+        "date": "2023-08-25T05:44:55.588Z",
+        "total_marks": 58019,
+        "obtained_marks": 60510,
+        "created_at": "2023-08-24T19:07:37.047Z",
+        "updated_at": "2023-08-25T14:30:22.423Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a2380fb7-4a3f-4bcb-bca2-d75589809462",
+        "name": "Quiz",
+        "date": "2023-08-25T14:52:18.015Z",
+        "total_marks": 49644,
+        "obtained_marks": 23815,
+        "created_at": "2023-08-25T14:25:18.376Z",
+        "updated_at": "2023-08-25T05:19:12.006Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "caf0acd2-5cce-4543-a1cc-1d36b4b3358d",
+        "name": "Project Presentation",
+        "date": "2023-08-25T09:06:02.652Z",
+        "total_marks": 194,
+        "obtained_marks": 99415,
+        "created_at": "2023-08-25T09:41:09.432Z",
+        "updated_at": "2023-08-24T22:31:10.368Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "a6754c07-2998-46f6-a376-21b4caff7f2c",
+        "date": "2023-08-25T11:53:48.625Z",
+        "status": "Present",
+        "created_at": "2023-08-25T08:46:07.817Z",
+        "updated_at": "2023-08-25T11:26:09.930Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "794197a9-b4bb-4e43-a6cb-ea2cd99d481f",
+        "date": "2023-08-25T16:33:47.233Z",
+        "status": "Absent",
+        "created_at": "2023-08-25T01:01:16.025Z",
+        "updated_at": "2023-08-24T18:35:33.942Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "abb9a852-19ea-4468-992f-027b6bb9ab6a",
+        "date": "2023-08-25T17:21:57.727Z",
+        "status": "Late",
+        "created_at": "2023-08-25T00:34:53.066Z",
+        "updated_at": "2023-08-25T15:07:42.720Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6e90998-698a-4ac7-a26a-f4cb69d1f3d6",
+        "date": "2023-08-25T00:33:53.460Z",
+        "status": "Excused",
+        "created_at": "2023-08-25T09:19:07.537Z",
+        "updated_at": "2023-08-24T22:35:02.762Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91a0dbd2-fb51-4148-b7c3-831458abd805",
+        "date": "2023-08-25T03:45:14.790Z",
+        "status": "Tardy",
+        "created_at": "2023-08-25T10:23:01.580Z",
+        "updated_at": "2023-08-25T15:35:35.750Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d451856c-f77f-4bc0-b570-91689cd16429",
+        "email": "Bryce23@gmail.com",
+        "firstName": "Alanis",
+        "lastName": "Bernhard",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58607856",
+        "tenantId": null
+      },
+      {
+        "reference": "96a5dee3-3a26-4d6c-bab3-8c109ee3048a",
+        "email": "William.Durgan@yahoo.com",
+        "firstName": "Branson",
+        "lastName": "DuBuque",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26605878",
+        "tenantId": null
+      },
+      {
+        "reference": "dbb155af-81df-4f91-8440-218d186dc1c6",
+        "email": "Verner42@yahoo.com",
+        "firstName": "Justice",
+        "lastName": "Hoppe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/779.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "693810e5-f0b1-4950-ac7c-01094cd730a7",
+        "email": "Ari_Fadel-Mosciski40@hotmail.com",
+        "firstName": "Tanya",
+        "lastName": "Herzog",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70563713",
+        "tenantId": null
+      },
+      {
+        "reference": "f7ee547d-5f8f-449f-ae3c-3082e6587682",
+        "email": "Bernadette.Rodriguez19@yahoo.com",
+        "firstName": "Britney",
+        "lastName": "Hoppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21816236",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "timetable": [
+      {
+        "id": "246b170f-2d16-4efb-8ddc-59ca6863f439",
+        "day": "Monday",
+        "period": 55137,
+        "subject": "Mathematics",
+        "created_at": "2023-08-25T09:28:10.864Z",
+        "updated_at": "2023-08-25T04:44:13.995Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ddb8203-8cee-42fe-9ddb-c3a5882ced3d",
+        "day": "Tuesday",
+        "period": 39964,
+        "subject": "Science",
+        "created_at": "2023-08-24T20:08:18.441Z",
+        "updated_at": "2023-08-25T10:46:34.057Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47b80600-19a7-44ef-90d4-bf4c75447902",
+        "day": "Wednesday",
+        "period": 83890,
+        "subject": "English",
+        "created_at": "2023-08-24T22:02:55.877Z",
+        "updated_at": "2023-08-25T12:09:39.505Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fed7624e-3748-43cb-aa80-525874892e0c",
+        "day": "Thursday",
+        "period": 39914,
+        "subject": "History",
+        "created_at": "2023-08-25T16:43:50.740Z",
+        "updated_at": "2023-08-25T02:58:46.812Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf05ccf4-a813-45b3-bced-779deedc48d9",
+        "day": "Friday",
+        "period": 72850,
+        "subject": "Geography",
+        "created_at": "2023-08-24T23:30:53.311Z",
+        "updated_at": "2023-08-25T08:12:38.883Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fee": [
+      {
+        "id": "668295e3-d18b-4a82-905a-b0de6959ee9a",
+        "amount": 99360,
+        "due_date": "2023-08-25T05:26:05.508Z",
+        "status": "Paid",
+        "created_at": "2023-08-25T08:15:21.784Z",
+        "updated_at": "2023-08-25T09:48:52.852Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b95a4baf-0007-4430-bef3-7e6715c52115",
+        "amount": 16530,
+        "due_date": "2023-08-24T22:19:45.536Z",
+        "status": "Pending",
+        "created_at": "2023-08-25T03:43:19.012Z",
+        "updated_at": "2023-08-25T04:20:22.884Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8bf20908-29f5-41e0-863d-046fb22cc837",
+        "amount": 9602,
+        "due_date": "2023-08-25T15:39:57.012Z",
+        "status": "Overdue",
+        "created_at": "2023-08-25T13:10:52.771Z",
+        "updated_at": "2023-08-25T11:09:32.815Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "143fdd8c-dc47-4d7c-80a2-18b34d3bd822",
+        "amount": 35671,
+        "due_date": "2023-08-24T17:51:17.768Z",
+        "status": "Waived",
+        "created_at": "2023-08-25T11:09:28.416Z",
+        "updated_at": "2023-08-25T03:27:37.290Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02e283d8-720a-4090-81b2-f03be28b2db8",
+        "amount": 47348,
+        "due_date": "2023-08-25T14:53:54.526Z",
+        "status": "Refunded",
+        "created_at": "2023-08-24T22:25:30.678Z",
+        "updated_at": "2023-08-25T01:04:49.550Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "exam": [
+      {
+        "id": "8117d303-ea11-44b5-92ae-3b76c4052694",
+        "name": "Midterm Exam",
+        "date": "2023-08-25T01:10:34.823Z",
+        "total_marks": 25611,
+        "obtained_marks": 30190,
+        "created_at": "2023-08-25T08:41:49.459Z",
+        "updated_at": "2023-08-25T05:34:03.913Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6361332d-da54-4d4c-9aae-8c027015e17a",
+        "name": "Final Exam",
+        "date": "2023-08-25T09:04:09.070Z",
+        "total_marks": 48938,
+        "obtained_marks": 51047,
+        "created_at": "2023-08-25T08:31:09.314Z",
+        "updated_at": "2023-08-25T13:37:03.169Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00adc348-a0b9-4a3c-abb6-8944b17e44df",
+        "name": "Unit Test",
+        "date": "2023-08-25T09:56:48.435Z",
+        "total_marks": 39139,
+        "obtained_marks": 43050,
+        "created_at": "2023-08-25T05:15:40.600Z",
+        "updated_at": "2023-08-25T16:14:35.626Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c481d14-fd8d-4082-9312-ac3ec75d1929",
+        "name": "Quiz",
+        "date": "2023-08-25T13:14:21.232Z",
+        "total_marks": 18623,
+        "obtained_marks": 56354,
+        "created_at": "2023-08-25T16:23:06.734Z",
+        "updated_at": "2023-08-25T05:23:47.719Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ae01dc2-7069-4e31-becd-5e6ab6cbf80e",
+        "name": "Practical Exam",
+        "date": "2023-08-25T14:27:24.035Z",
+        "total_marks": 41767,
+        "obtained_marks": 84094,
+        "created_at": "2023-08-25T08:03:58.513Z",
+        "updated_at": "2023-08-25T16:44:09.729Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "e10a724c-5100-4c9e-8d99-02e558a31c6c",
+        "date": "2023-08-25T12:33:40.060Z",
+        "status": "Present",
+        "created_at": "2023-08-25T17:17:56.029Z",
+        "updated_at": "2023-08-24T21:19:35.273Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7625774d-0a8c-48ec-ac3f-a59088d8bc83",
+        "date": "2023-08-25T00:28:00.115Z",
+        "status": "Absent",
+        "created_at": "2023-08-25T14:07:53.690Z",
+        "updated_at": "2023-08-25T09:54:47.751Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71537852-7d64-4a91-8eaa-ddfe0d98b8c7",
+        "date": "2023-08-25T03:31:03.984Z",
+        "status": "Late",
+        "created_at": "2023-08-25T06:35:07.548Z",
+        "updated_at": "2023-08-25T10:08:46.894Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e8792f1-e3d0-44d9-98f7-783ae036a619",
+        "date": "2023-08-25T02:07:40.284Z",
+        "status": "Excused",
+        "created_at": "2023-08-25T17:15:41.213Z",
+        "updated_at": "2023-08-24T18:56:32.373Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec48a10f-d0c6-4bc9-a4ea-b08ed6ffad6d",
+        "date": "2023-08-25T12:43:26.809Z",
+        "status": "Tardy",
+        "created_at": "2023-08-24T21:40:19.388Z",
+        "updated_at": "2023-08-25T11:07:11.013Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "753f0657-ba9a-4dd6-a7c9-39002efd02c9",
+        "email": "Liza61@yahoo.com",
+        "firstName": "Cleora",
+        "lastName": "Quigley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/58.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a7ee5efe-4c09-48a4-bf05-625b74e7ef23",
+        "email": "Conner.Jenkins5@gmail.com",
+        "firstName": "Lyla",
+        "lastName": "Rice",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/364.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "08470fd0-0e73-4bad-a30c-1d7c0d39b5b9",
+        "email": "Willa_Littel@hotmail.com",
+        "firstName": "Naomie",
+        "lastName": "Blick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39146338",
+        "tenantId": null
+      },
+      {
+        "reference": "5b667b0a-a680-46af-a8d6-5ff9383fafbf",
+        "email": "Savion.Ondricka@gmail.com",
+        "firstName": "Allene",
+        "lastName": "Rogahn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/771.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "62556e3b-74b0-46ab-839d-3b73c0e6dbad",
+        "email": "Justice_Wisozk39@hotmail.com",
+        "firstName": "Spencer",
+        "lastName": "Dickinson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34127573",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "timetable": [
+      {
+        "id": "cfdf1ccb-7e58-495e-9f28-f28baa7cfe7c",
+        "day": "Monday",
+        "period": 90363,
+        "subject": "Mathematics",
+        "created_at": "2023-08-25T03:37:46.179Z",
+        "updated_at": "2023-08-24T18:17:09.803Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c00efe7-10e1-4277-88c1-03a565a138fb",
+        "day": "Tuesday",
+        "period": 69239,
+        "subject": "Science",
+        "created_at": "2023-08-25T15:20:44.664Z",
+        "updated_at": "2023-08-25T13:16:41.595Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c28e37d-bdd1-4a48-9163-353527c53660",
+        "day": "Wednesday",
+        "period": 7358,
+        "subject": "English",
+        "created_at": "2023-08-25T17:11:59.059Z",
+        "updated_at": "2023-08-24T21:47:30.921Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "48708314-8fcd-419f-a971-a8567529a1ce",
+        "day": "Thursday",
+        "period": 88690,
+        "subject": "History",
+        "created_at": "2023-08-25T05:07:17.612Z",
+        "updated_at": "2023-08-25T13:34:07.792Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4689bfc3-e46b-4885-92cd-655b66ca48db",
+        "day": "Friday",
+        "period": 99309,
+        "subject": "Art",
+        "created_at": "2023-08-25T14:34:43.817Z",
+        "updated_at": "2023-08-25T04:20:09.028Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fee": [
+      {
+        "id": "5bbd5b2a-b7b6-4de9-bc4f-7cc8adfb60a9",
+        "amount": 88839,
+        "due_date": "2023-08-25T02:43:42.260Z",
+        "status": "Paid",
+        "created_at": "2023-08-25T01:14:27.141Z",
+        "updated_at": "2023-08-25T11:13:53.599Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e5180fb-a488-4d06-b16a-3717fe29aa9c",
+        "amount": 95094,
+        "due_date": "2023-08-25T17:09:12.146Z",
+        "status": "Pending",
+        "created_at": "2023-08-25T13:01:49.025Z",
+        "updated_at": "2023-08-25T01:01:54.882Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77672e42-6491-4528-90d4-b20709a8f4b8",
+        "amount": 96967,
+        "due_date": "2023-08-24T22:35:47.528Z",
+        "status": "Overdue",
+        "created_at": "2023-08-25T13:16:34.489Z",
+        "updated_at": "2023-08-25T15:39:09.915Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6cec3eb0-28db-4ac7-b26f-4d59fda2af03",
+        "amount": 8942,
+        "due_date": "2023-08-24T18:40:02.490Z",
+        "status": "Waived",
+        "created_at": "2023-08-24T19:53:59.602Z",
+        "updated_at": "2023-08-25T16:24:07.885Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4870e096-458b-456c-a3b2-6223fd97efa7",
+        "amount": 99655,
+        "due_date": "2023-08-25T05:34:59.917Z",
+        "status": "Partially Paid",
+        "created_at": "2023-08-24T18:49:30.761Z",
+        "updated_at": "2023-08-25T01:14:23.609Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "exam": [
+      {
+        "id": "286a180c-c29e-4482-85ca-51807ebbc3a6",
+        "name": "Midterm Exam",
+        "date": "2023-08-25T13:07:35.356Z",
+        "total_marks": 90962,
+        "obtained_marks": 88262,
+        "created_at": "2023-08-24T23:41:51.798Z",
+        "updated_at": "2023-08-25T13:46:22.779Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c10dec1-fa56-4ee2-b82b-1f3afa0fe977",
+        "name": "Final Exam",
+        "date": "2023-08-24T21:33:17.230Z",
+        "total_marks": 28051,
+        "obtained_marks": 26589,
+        "created_at": "2023-08-25T04:37:40.606Z",
+        "updated_at": "2023-08-25T13:54:30.110Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "652a84dd-4fb1-4553-9500-c09c9b37563d",
+        "name": "Unit Test",
+        "date": "2023-08-24T21:20:23.492Z",
+        "total_marks": 96956,
+        "obtained_marks": 23020,
+        "created_at": "2023-08-24T20:23:03.376Z",
+        "updated_at": "2023-08-24T22:51:51.995Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4a61fd5-f62f-42de-87a4-5d676afad4f4",
+        "name": "Quiz",
+        "date": "2023-08-25T02:11:29.567Z",
+        "total_marks": 56274,
+        "obtained_marks": 21345,
+        "created_at": "2023-08-25T03:12:21.294Z",
+        "updated_at": "2023-08-25T07:17:00.598Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25606d19-efb2-4029-a2d5-bc85f2af24b4",
+        "name": "Project Assessment",
+        "date": "2023-08-25T00:17:22.237Z",
+        "total_marks": 627,
+        "obtained_marks": 8571,
+        "created_at": "2023-08-25T15:10:51.744Z",
+        "updated_at": "2023-08-25T05:34:15.932Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "d5766513-01b3-4868-acb1-7f516586643c",
+        "date": "2023-08-25T06:41:45.103Z",
+        "status": "Present",
+        "created_at": "2023-08-25T11:19:55.817Z",
+        "updated_at": "2023-08-25T12:56:51.617Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd5d1612-ba64-4bd8-ba14-6ed8ef6217c5",
+        "date": "2023-08-25T04:14:59.244Z",
+        "status": "Absent",
+        "created_at": "2023-08-24T18:00:34.240Z",
+        "updated_at": "2023-08-24T19:43:26.581Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dff33d90-c882-4f23-858c-007c2af25082",
+        "date": "2023-08-25T01:59:24.087Z",
+        "status": "Late",
+        "created_at": "2023-08-25T08:19:08.798Z",
+        "updated_at": "2023-08-24T21:23:24.300Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91ffb44b-c401-49d6-b76d-d4d58c8d8db4",
+        "date": "2023-08-25T01:05:44.645Z",
+        "status": "Excused",
+        "created_at": "2023-08-25T08:47:13.248Z",
+        "updated_at": "2023-08-25T04:31:04.290Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "feb3b811-8549-45b0-ace1-1635f4211c23",
+        "date": "2023-08-24T21:29:30.437Z",
+        "status": "Tardy",
+        "created_at": "2023-08-24T23:45:36.118Z",
+        "updated_at": "2023-08-25T16:04:46.172Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0483d091-fb78-47df-a3b4-128e4495ddff",
+        "email": "Steve82@yahoo.com",
+        "firstName": "Cecilia",
+        "lastName": "McGlynn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/408.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6ff61020-26ed-4927-b4cd-f90f01ae028e",
+        "email": "Walter_Rodriguez42@gmail.com",
+        "firstName": "Elinore",
+        "lastName": "Lowe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59808186",
+        "tenantId": null
+      },
+      {
+        "reference": "497f2f53-d782-4088-8775-6d5568faa529",
+        "email": "Jaime.Deckow36@hotmail.com",
+        "firstName": "Kasandra",
+        "lastName": "Schmeler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/550.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2960b7ce-09e1-47ec-9896-da54dac8bbe2",
+        "email": "Stone_Gottlieb@gmail.com",
+        "firstName": "Emerald",
+        "lastName": "Hand",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31839624",
+        "tenantId": null
+      },
+      {
+        "reference": "5a5ccbaa-fbde-4862-a38e-073ec29317a7",
+        "email": "Addison_Hartmann@yahoo.com",
+        "firstName": "Declan",
+        "lastName": "Pacocha",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10408592",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "timetable": [
+      {
+        "id": "202183ff-8de5-4d02-b49e-0b8b275a6480",
+        "day": "Monday",
+        "period": 92298,
+        "subject": "Mathematics",
+        "created_at": "2023-08-25T13:03:17.342Z",
+        "updated_at": "2023-08-25T09:38:35.176Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d453a7f8-4e7c-4bc5-8fef-fdb1b5e750ac",
+        "day": "Tuesday",
+        "period": 96503,
+        "subject": "Science",
+        "created_at": "2023-08-25T16:38:27.307Z",
+        "updated_at": "2023-08-24T20:08:23.131Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "50e8ff71-169b-4d05-8d2b-b8815debaf0c",
+        "day": "Wednesday",
+        "period": 91258,
+        "subject": "English",
+        "created_at": "2023-08-24T18:41:50.923Z",
+        "updated_at": "2023-08-25T08:53:31.729Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb417c83-b813-492f-bada-6a0fc8ad9d2e",
+        "day": "Thursday",
+        "period": 54795,
+        "subject": "History",
+        "created_at": "2023-08-25T07:50:17.329Z",
+        "updated_at": "2023-08-24T22:47:26.152Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e06e046d-063b-44f2-a959-9a6682771768",
+        "day": "Friday",
+        "period": 87891,
+        "subject": "Geography",
+        "created_at": "2023-08-25T00:36:58.053Z",
+        "updated_at": "2023-08-25T15:14:51.516Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fee": [
+      {
+        "id": "8a471ce0-b94f-4a86-b4fb-5832a71776ab",
+        "amount": 11301,
+        "due_date": "2023-08-24T19:20:00.727Z",
+        "status": "Paid",
+        "created_at": "2023-08-25T16:28:19.926Z",
+        "updated_at": "2023-08-25T10:40:47.469Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "285f8989-0d82-4f66-add7-0d2e08efc78c",
+        "amount": 55566,
+        "due_date": "2023-08-25T10:54:32.517Z",
+        "status": "Pending",
+        "created_at": "2023-08-25T00:57:29.977Z",
+        "updated_at": "2023-08-25T17:17:18.538Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "103fcb9d-0bc2-422d-b7f3-0359b0cb394f",
+        "amount": 80532,
+        "due_date": "2023-08-25T11:51:16.532Z",
+        "status": "Overdue",
+        "created_at": "2023-08-24T23:49:06.539Z",
+        "updated_at": "2023-08-25T17:06:35.545Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f157795-7486-429b-ae95-353459bb371b",
+        "amount": 29637,
+        "due_date": "2023-08-25T12:51:56.175Z",
+        "status": "Waived",
+        "created_at": "2023-08-24T20:09:18.754Z",
+        "updated_at": "2023-08-24T19:24:42.947Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6acbcd3d-e365-4068-ae17-a0ae056d16c1",
+        "amount": 27657,
+        "due_date": "2023-08-25T00:03:58.972Z",
+        "status": "Refunded",
+        "created_at": "2023-08-25T16:59:38.403Z",
+        "updated_at": "2023-08-25T11:02:12.764Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "exam": [
+      {
+        "id": "197a6676-cf44-4a4a-88f3-2d3bbd169e1c",
+        "name": "Midterm Exam",
+        "date": "2023-08-25T00:54:44.822Z",
+        "total_marks": 80917,
+        "obtained_marks": 99969,
+        "created_at": "2023-08-24T23:44:01.369Z",
+        "updated_at": "2023-08-24T23:14:08.639Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "23273248-241e-4382-bd70-575558141450",
+        "name": "Final Exam",
+        "date": "2023-08-25T16:24:02.243Z",
+        "total_marks": 79933,
+        "obtained_marks": 75992,
+        "created_at": "2023-08-25T02:19:50.594Z",
+        "updated_at": "2023-08-25T07:38:03.160Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "394dd5a9-7c20-46f4-92c7-82820f669be9",
+        "name": "Unit Test",
+        "date": "2023-08-25T12:13:26.993Z",
+        "total_marks": 3808,
+        "obtained_marks": 85151,
+        "created_at": "2023-08-25T00:06:52.700Z",
+        "updated_at": "2023-08-25T04:59:25.607Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f8f168f-0235-4a57-9385-c9d7a79972fe",
+        "name": "Practical Exam",
+        "date": "2023-08-25T05:14:32.627Z",
+        "total_marks": 71644,
+        "obtained_marks": 56768,
+        "created_at": "2023-08-25T06:25:27.270Z",
+        "updated_at": "2023-08-25T09:56:14.385Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84945280-b36f-4ad1-8074-d8be1e69c0cc",
+        "name": "Mock Exam",
+        "date": "2023-08-25T02:05:05.126Z",
+        "total_marks": 8567,
+        "obtained_marks": 19181,
+        "created_at": "2023-08-25T16:51:03.030Z",
+        "updated_at": "2023-08-25T15:06:56.782Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "1c3a4061-978d-47f7-ab66-4f23669c6da6",
+        "date": "2023-08-25T00:37:25.124Z",
+        "status": "Present",
+        "created_at": "2023-08-25T13:01:51.385Z",
+        "updated_at": "2023-08-25T16:42:44.963Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94a010fe-6c5e-44c9-90cd-b751e0989dd6",
+        "date": "2023-08-25T11:39:40.597Z",
+        "status": "Absent",
+        "created_at": "2023-08-24T18:09:17.965Z",
+        "updated_at": "2023-08-25T15:02:01.047Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6cda3087-b509-4531-b855-bbb5255a9112",
+        "date": "2023-08-25T03:21:05.252Z",
+        "status": "Late",
+        "created_at": "2023-08-24T22:18:30.735Z",
+        "updated_at": "2023-08-25T15:16:23.760Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "849b827f-da82-43e7-a949-0e0203c54abd",
+        "date": "2023-08-25T10:13:28.797Z",
+        "status": "Excused",
+        "created_at": "2023-08-24T23:41:00.698Z",
+        "updated_at": "2023-08-25T16:48:23.279Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f75a2084-9e31-476b-9240-7d15e95e7cac",
+        "date": "2023-08-25T09:17:46.115Z",
+        "status": "Sick",
+        "created_at": "2023-08-25T05:10:30.366Z",
+        "updated_at": "2023-08-25T10:30:04.208Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "dec91f3b-5d39-4b47-92b6-a2779fe49f90",
+        "email": "Albin_Collins94@yahoo.com",
+        "firstName": "Dudley",
+        "lastName": "Goyette",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/415.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d86e2b30-d4fd-4510-a5a4-36881296f777",
+        "email": "Wanda50@gmail.com",
+        "firstName": "Micah",
+        "lastName": "McCullough",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/565.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1a565ec7-063a-4b91-bab3-3be31caf64cb",
+        "email": "Rollin21@hotmail.com",
+        "firstName": "Eladio",
+        "lastName": "Dickens",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/290.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f6f005b7-6889-43de-9f29-a116008a6a17",
+        "email": "Percy_McKenzie80@gmail.com",
+        "firstName": "Reese",
+        "lastName": "Bergnaum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1056.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "80026fea-bbeb-4a6c-ac9f-4117205d0934",
+        "email": "Cleora_Keeling@yahoo.com",
+        "firstName": "Eino",
+        "lastName": "Hegmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/224.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "timetable": [
+      {
+        "id": "127d52e7-531d-450a-b001-c4cf04f5e58b",
+        "day": "Monday",
+        "period": 89532,
+        "subject": "Mathematics",
+        "created_at": "2023-08-25T02:51:49.164Z",
+        "updated_at": "2023-08-25T17:21:39.679Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "025ce68f-a1ea-4c4c-93ae-a7c36cb3d2f4",
+        "day": "Tuesday",
+        "period": 89516,
+        "subject": "Science",
+        "created_at": "2023-08-24T18:47:02.313Z",
+        "updated_at": "2023-08-24T17:39:27.628Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc0e656f-d871-4f71-a325-055419d18a39",
+        "day": "Wednesday",
+        "period": 56215,
+        "subject": "English",
+        "created_at": "2023-08-25T09:37:18.267Z",
+        "updated_at": "2023-08-25T04:28:42.499Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "721a87f7-f0df-4390-a203-fc9f6ab32023",
+        "day": "Thursday",
+        "period": 12980,
+        "subject": "History",
+        "created_at": "2023-08-25T16:58:02.731Z",
+        "updated_at": "2023-08-25T15:04:05.311Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c06b9b10-19bd-402d-b8c6-dfe4ec9aac02",
+        "day": "Friday",
+        "period": 22058,
+        "subject": "Physical Education",
+        "created_at": "2023-08-24T18:14:39.991Z",
+        "updated_at": "2023-08-24T21:37:07.578Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fee": [
+      {
+        "id": "2d969cf2-05d0-4d48-bc9d-19b4aa1a46cf",
+        "amount": 67148,
+        "due_date": "2023-08-25T14:19:45.740Z",
+        "status": "Paid",
+        "created_at": "2023-08-25T07:22:10.924Z",
+        "updated_at": "2023-08-25T15:32:22.211Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56efd470-f8d6-4d49-a3a6-5802dca11187",
+        "amount": 56028,
+        "due_date": "2023-08-24T17:33:21.530Z",
+        "status": "Pending",
+        "created_at": "2023-08-25T09:57:09.195Z",
+        "updated_at": "2023-08-25T00:02:08.913Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a9304a0-b9c8-4c50-859c-6d0a11a395f9",
+        "amount": 8825,
+        "due_date": "2023-08-24T19:19:59.084Z",
+        "status": "Overdue",
+        "created_at": "2023-08-25T16:33:25.256Z",
+        "updated_at": "2023-08-25T03:09:24.661Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bfff6e16-b292-4283-b53f-66d33e1be6b5",
+        "amount": 24897,
+        "due_date": "2023-08-25T01:56:38.770Z",
+        "status": "Waived",
+        "created_at": "2023-08-25T15:06:50.513Z",
+        "updated_at": "2023-08-25T12:06:51.495Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e46d6827-2503-4598-8ad1-6fdb4999f372",
+        "amount": 88866,
+        "due_date": "2023-08-25T05:50:01.142Z",
+        "status": "Refunded",
+        "created_at": "2023-08-25T09:20:45.395Z",
+        "updated_at": "2023-08-25T00:45:25.032Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "exam": [
+      {
+        "id": "b7d8cc51-d276-47fd-8ebd-e766543fca2b",
+        "name": "Midterm Exam",
+        "date": "2023-08-25T00:40:15.853Z",
+        "total_marks": 25502,
+        "obtained_marks": 34570,
+        "created_at": "2023-08-24T23:45:07.432Z",
+        "updated_at": "2023-08-25T11:44:11.909Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b7e07eb7-50eb-48ea-b2c0-fa341dc23708",
+        "name": "Final Exam",
+        "date": "2023-08-25T10:21:09.944Z",
+        "total_marks": 713,
+        "obtained_marks": 56609,
+        "created_at": "2023-08-25T12:59:48.852Z",
+        "updated_at": "2023-08-25T01:49:02.468Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc2703f5-fe1a-4c6b-a825-223401f1ca4d",
+        "name": "Unit Test",
+        "date": "2023-08-25T12:13:54.618Z",
+        "total_marks": 94012,
+        "obtained_marks": 59276,
+        "created_at": "2023-08-25T14:33:42.643Z",
+        "updated_at": "2023-08-25T15:15:40.264Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a01237a-8a23-467d-a9b4-18b5b9e30c93",
+        "name": "Quiz",
+        "date": "2023-08-25T07:26:41.144Z",
+        "total_marks": 36456,
+        "obtained_marks": 66162,
+        "created_at": "2023-08-25T02:47:57.013Z",
+        "updated_at": "2023-08-24T20:04:20.084Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a9958cd-ec79-43df-a46a-70cca6f24845",
+        "name": "Project Presentation",
+        "date": "2023-08-24T20:23:34.869Z",
+        "total_marks": 84559,
+        "obtained_marks": 99068,
+        "created_at": "2023-08-25T07:49:00.532Z",
+        "updated_at": "2023-08-25T12:05:38.000Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "d7bac713-a8de-49cc-991f-c63435ff0913",
+        "date": "2023-08-25T11:31:22.246Z",
+        "status": "Present",
+        "created_at": "2023-08-25T09:53:15.789Z",
+        "updated_at": "2023-08-24T19:44:12.757Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a564a013-bb89-4e3f-862d-aa7b21f54889",
+        "date": "2023-08-25T02:00:57.234Z",
+        "status": "Absent",
+        "created_at": "2023-08-24T19:44:03.176Z",
+        "updated_at": "2023-08-24T18:12:07.856Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d997139-51d9-4963-9b52-3ae1e1573378",
+        "date": "2023-08-24T18:01:36.441Z",
+        "status": "Late",
+        "created_at": "2023-08-25T03:55:25.375Z",
+        "updated_at": "2023-08-25T06:17:13.887Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dbaeb0c2-5b59-4131-a006-203167173222",
+        "date": "2023-08-24T22:22:18.767Z",
+        "status": "Excused",
+        "created_at": "2023-08-24T20:37:35.796Z",
+        "updated_at": "2023-08-25T11:52:06.186Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0fc75bb-2025-46ad-922a-bc2ae8a84690",
+        "date": "2023-08-25T02:56:42.902Z",
+        "status": "Tardy",
+        "created_at": "2023-08-24T19:17:37.208Z",
+        "updated_at": "2023-08-25T02:17:57.341Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "51d47bfa-cdd4-4f59-a25f-d2cabd854097",
+        "email": "Mitchel46@hotmail.com",
+        "firstName": "Casper",
+        "lastName": "Wintheiser",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/717.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c1855c6e-d638-4788-b427-5e0e35b53f21",
+        "email": "Rozella66@hotmail.com",
+        "firstName": "Marlene",
+        "lastName": "Daniel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/529.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2edf5433-77f6-4e0a-be72-07a6baf1caed",
+        "email": "Elena45@gmail.com",
+        "firstName": "Micah",
+        "lastName": "Konopelski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55387880",
+        "tenantId": null
+      },
+      {
+        "reference": "bce20349-6e0b-4e69-bb87-4954c2fdc0ce",
+        "email": "Kory_Schuppe@yahoo.com",
+        "firstName": "Micheal",
+        "lastName": "Leannon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70047815",
+        "tenantId": null
+      },
+      {
+        "reference": "bc7464de-274f-47e6-b4ab-658617a3be30",
+        "email": "Ashtyn.Koch25@yahoo.com",
+        "firstName": "Simone",
+        "lastName": "Sipes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/260.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "timetable": [
+      {
+        "id": "6c52db1f-8c99-48d2-871e-83ac0ce33461",
+        "day": "Monday",
+        "period": 41987,
+        "subject": "Mathematics",
+        "created_at": "2023-08-25T17:19:52.669Z",
+        "updated_at": "2023-08-25T12:59:45.739Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34fd0d2b-3cce-4fca-ba0c-efc05970c77a",
+        "day": "Tuesday",
+        "period": 97564,
+        "subject": "Science",
+        "created_at": "2023-08-25T01:35:36.258Z",
+        "updated_at": "2023-08-25T09:29:23.338Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2be1d6c-40a1-43ff-aa7c-d28d74157a5a",
+        "day": "Wednesday",
+        "period": 44740,
+        "subject": "English",
+        "created_at": "2023-08-24T17:33:28.867Z",
+        "updated_at": "2023-08-25T13:01:09.935Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae061fa5-8e9f-4bf8-96e0-0c9330efef33",
+        "day": "Thursday",
+        "period": 3355,
+        "subject": "History",
+        "created_at": "2023-08-25T17:12:15.570Z",
+        "updated_at": "2023-08-24T20:54:44.593Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15d59f87-56c4-4d63-a8fd-e097725d4fac",
+        "day": "Friday",
+        "period": 46414,
+        "subject": "Geography",
+        "created_at": "2023-08-25T12:08:44.454Z",
+        "updated_at": "2023-08-24T22:50:47.344Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fee": [
+      {
+        "id": "f0f013ab-919c-4bd3-8fb0-4f284de4eb6b",
+        "amount": 54796,
+        "due_date": "2023-08-25T02:53:17.369Z",
+        "status": "Paid",
+        "created_at": "2023-08-24T18:46:33.890Z",
+        "updated_at": "2023-08-25T08:44:37.566Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30951bd9-f42f-4df0-9371-a12332926134",
+        "amount": 49371,
+        "due_date": "2023-08-24T20:02:21.538Z",
+        "status": "Pending",
+        "created_at": "2023-08-25T10:23:44.128Z",
+        "updated_at": "2023-08-25T00:38:57.188Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8320ce54-8b22-402e-96f9-fb8db25baf94",
+        "amount": 71214,
+        "due_date": "2023-08-24T20:45:00.744Z",
+        "status": "Overdue",
+        "created_at": "2023-08-25T12:04:28.493Z",
+        "updated_at": "2023-08-24T23:40:28.801Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8501d14-1f6a-427d-afcf-c68561d12599",
+        "amount": 77689,
+        "due_date": "2023-08-24T20:30:55.015Z",
+        "status": "Waived",
+        "created_at": "2023-08-25T07:18:12.435Z",
+        "updated_at": "2023-08-24T22:30:49.370Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab997737-9cb3-47b0-98ee-28ae1f51f63e",
+        "amount": 35927,
+        "due_date": "2023-08-24T17:37:44.482Z",
+        "status": "Refunded",
+        "created_at": "2023-08-25T13:14:58.145Z",
+        "updated_at": "2023-08-25T06:51:55.573Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "exam": [
+      {
+        "id": "e90fb4e0-5c15-4294-b751-0f9cb92cf212",
+        "name": "Midterm Exam",
+        "date": "2023-08-24T19:38:25.356Z",
+        "total_marks": 54796,
+        "obtained_marks": 15490,
+        "created_at": "2023-08-25T00:28:40.570Z",
+        "updated_at": "2023-08-24T20:32:11.053Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12c50316-731a-42d1-b14c-337febfab599",
+        "name": "Final Exam",
+        "date": "2023-08-25T06:33:55.871Z",
+        "total_marks": 20122,
+        "obtained_marks": 45915,
+        "created_at": "2023-08-25T12:32:00.987Z",
+        "updated_at": "2023-08-25T03:40:56.445Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8571bd79-9a1b-486a-84f9-afa4a918cde5",
+        "name": "Unit Test",
+        "date": "2023-08-25T14:24:29.035Z",
+        "total_marks": 70829,
+        "obtained_marks": 96271,
+        "created_at": "2023-08-24T17:50:34.553Z",
+        "updated_at": "2023-08-24T22:02:24.017Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c88b75d0-bf7a-4065-a6bf-d30f15ce3822",
+        "name": "Quiz",
+        "date": "2023-08-25T02:24:41.044Z",
+        "total_marks": 58459,
+        "obtained_marks": 70060,
+        "created_at": "2023-08-25T14:48:06.737Z",
+        "updated_at": "2023-08-25T00:33:58.381Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e24fe71b-b432-4660-8981-4ccc6a4b16a6",
+        "name": "Practical Exam",
+        "date": "2023-08-25T14:26:54.385Z",
+        "total_marks": 18572,
+        "obtained_marks": 86623,
+        "created_at": "2023-08-24T22:39:48.520Z",
+        "updated_at": "2023-08-25T06:30:22.378Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "79510778-c0fb-45f3-a6db-534ccbea5d16",
+        "date": "2023-08-24T20:20:27.472Z",
+        "status": "Present",
+        "created_at": "2023-08-25T10:27:01.055Z",
+        "updated_at": "2023-08-25T11:04:20.715Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b76f682-e88a-413d-922e-e3b40e58ffc3",
+        "date": "2023-08-25T16:01:49.507Z",
+        "status": "Absent",
+        "created_at": "2023-08-25T07:43:04.946Z",
+        "updated_at": "2023-08-25T03:46:49.103Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "900f02d6-b6fd-4216-97c2-281a734b323e",
+        "date": "2023-08-24T19:40:39.827Z",
+        "status": "Late",
+        "created_at": "2023-08-25T05:52:03.662Z",
+        "updated_at": "2023-08-25T06:04:55.767Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65dc8f09-a1b7-4a58-bb3f-beff6d450403",
+        "date": "2023-08-25T07:09:21.910Z",
+        "status": "Excused",
+        "created_at": "2023-08-24T20:59:54.623Z",
+        "updated_at": "2023-08-24T21:50:09.115Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d39f4c7-f44a-44b0-a7e8-b02874e8b43b",
+        "date": "2023-08-25T03:15:03.941Z",
+        "status": "Tardy",
+        "created_at": "2023-08-24T18:46:57.082Z",
+        "updated_at": "2023-08-25T13:01:49.815Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9d02e38f-b3ef-47cb-9f91-2cb98ad1702f",
+        "email": "Rey88@hotmail.com",
+        "firstName": "Justen",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67527600",
+        "tenantId": null
+      },
+      {
+        "reference": "d1916a76-42d9-4cd0-9c5e-b41e3eb0dd70",
+        "email": "Aimee_Kiehn14@gmail.com",
+        "firstName": "Eldora",
+        "lastName": "Lakin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6273529",
+        "tenantId": null
+      },
+      {
+        "reference": "fe51c0cb-a4dd-48ca-adee-12390d0b825c",
+        "email": "Magdalena_Dare@yahoo.com",
+        "firstName": "Jerod",
+        "lastName": "Kautzer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35732067",
+        "tenantId": null
+      },
+      {
+        "reference": "49860211-8007-4561-9170-b787636e2eeb",
+        "email": "Domenick_Bogan99@yahoo.com",
+        "firstName": "Nickolas",
+        "lastName": "Johns",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/790.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2b2c7422-38ef-4266-a3ad-943628584d3a",
+        "email": "Tremaine_Donnelly-Boyle@yahoo.com",
+        "firstName": "Kirsten",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95298323",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "timetable": [
+      {
+        "id": "112a697a-81e6-4eda-9237-158dbbfdf258",
+        "day": "Monday",
+        "period": 67530,
+        "subject": "Mathematics",
+        "created_at": "2023-08-25T13:58:45.986Z",
+        "updated_at": "2023-08-24T17:47:29.782Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78c2ea84-6a38-4b4e-82ba-513d7ae897d2",
+        "day": "Tuesday",
+        "period": 26937,
+        "subject": "Science",
+        "created_at": "2023-08-25T09:03:18.606Z",
+        "updated_at": "2023-08-25T02:50:59.192Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89c2bcf7-a313-4fb3-b5f6-48b123615127",
+        "day": "Wednesday",
+        "period": 17426,
+        "subject": "English",
+        "created_at": "2023-08-25T01:02:28.367Z",
+        "updated_at": "2023-08-25T10:36:51.755Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb672028-128a-41be-a2e0-9f3b441697d6",
+        "day": "Thursday",
+        "period": 64772,
+        "subject": "History",
+        "created_at": "2023-08-25T07:18:03.446Z",
+        "updated_at": "2023-08-25T07:18:31.888Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19f1cbd2-eb44-40b2-a936-f35c39e6349c",
+        "day": "Friday",
+        "period": 40654,
+        "subject": "Art",
+        "created_at": "2023-08-25T11:24:04.624Z",
+        "updated_at": "2023-08-25T09:41:41.760Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fee": [
+      {
+        "id": "52d4cfe4-cf20-407d-89ba-26c67acf68d6",
+        "amount": 5982,
+        "due_date": "2023-08-25T13:11:49.142Z",
+        "status": "Paid",
+        "created_at": "2023-08-25T11:45:22.450Z",
+        "updated_at": "2023-08-24T20:28:13.758Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0152041-0ee3-4c79-840a-dacc6d151420",
+        "amount": 85307,
+        "due_date": "2023-08-24T17:28:25.830Z",
+        "status": "Pending",
+        "created_at": "2023-08-25T01:05:11.248Z",
+        "updated_at": "2023-08-25T05:18:41.286Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c663621-4b5a-4838-a7db-f848f447282a",
+        "amount": 17789,
+        "due_date": "2023-08-25T12:08:35.988Z",
+        "status": "Overdue",
+        "created_at": "2023-08-25T16:34:08.888Z",
+        "updated_at": "2023-08-25T01:19:32.007Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62b91f42-cfa3-4b19-9aac-3540eea15dca",
+        "amount": 14074,
+        "due_date": "2023-08-25T10:16:21.352Z",
+        "status": "Waived",
+        "created_at": "2023-08-25T05:04:17.348Z",
+        "updated_at": "2023-08-25T14:41:25.340Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae8912a6-c481-41b7-8313-910b31e4347f",
+        "amount": 87987,
+        "due_date": "2023-08-24T22:16:45.723Z",
+        "status": "Refunded",
+        "created_at": "2023-08-25T05:22:11.682Z",
+        "updated_at": "2023-08-24T21:25:26.466Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "exam": [
+      {
+        "id": "a505258f-f49e-43ff-b324-13508cb70d43",
+        "name": "Midterm Exam",
+        "date": "2023-08-24T21:00:42.571Z",
+        "total_marks": 96571,
+        "obtained_marks": 91563,
+        "created_at": "2023-08-25T11:28:26.231Z",
+        "updated_at": "2023-08-25T07:57:28.304Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1add8dd3-3ed4-424d-beaa-290e4453f058",
+        "name": "Final Exam",
+        "date": "2023-08-25T04:01:01.997Z",
+        "total_marks": 19463,
+        "obtained_marks": 22043,
+        "created_at": "2023-08-25T05:40:38.909Z",
+        "updated_at": "2023-08-25T03:51:38.812Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ace26ee3-cebe-49e0-9157-adff2e9b4f90",
+        "name": "Unit Test",
+        "date": "2023-08-24T23:16:11.732Z",
+        "total_marks": 37732,
+        "obtained_marks": 1978,
+        "created_at": "2023-08-24T23:39:53.612Z",
+        "updated_at": "2023-08-24T20:56:58.553Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35bd3448-8024-4aa6-a556-8bbe9a24fdfc",
+        "name": "Quiz",
+        "date": "2023-08-25T02:13:35.238Z",
+        "total_marks": 32171,
+        "obtained_marks": 15609,
+        "created_at": "2023-08-24T22:04:27.095Z",
+        "updated_at": "2023-08-25T08:46:51.831Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f791e00-c5c9-49cf-8b39-dc6b05678731",
+        "name": "Project Presentation",
+        "date": "2023-08-24T23:24:46.192Z",
+        "total_marks": 4759,
+        "obtained_marks": 35839,
+        "created_at": "2023-08-24T23:24:18.202Z",
+        "updated_at": "2023-08-24T19:45:14.058Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "e4450a80-1a61-40d7-9e15-1a73109a4085",
+        "date": "2023-08-24T19:32:53.199Z",
+        "status": "Present",
+        "created_at": "2023-08-24T22:04:54.747Z",
+        "updated_at": "2023-08-24T18:59:36.608Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54fa963c-b779-4358-8e40-36ee473a9036",
+        "date": "2023-08-25T08:21:58.783Z",
+        "status": "Absent",
+        "created_at": "2023-08-24T23:19:26.958Z",
+        "updated_at": "2023-08-24T22:00:19.747Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "201b7ed8-8ae4-4b01-a606-96ac8566a1a3",
+        "date": "2023-08-24T19:49:46.607Z",
+        "status": "Late",
+        "created_at": "2023-08-24T21:09:26.682Z",
+        "updated_at": "2023-08-25T05:47:27.086Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04590624-79fc-423b-b2ae-502d14e052b0",
+        "date": "2023-08-25T14:58:09.800Z",
+        "status": "Excused",
+        "created_at": "2023-08-25T15:16:27.356Z",
+        "updated_at": "2023-08-24T22:11:44.655Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a82df9e-365e-4490-b360-909bacd79cdd",
+        "date": "2023-08-24T19:10:59.649Z",
+        "status": "Tardy",
+        "created_at": "2023-08-25T10:24:52.511Z",
+        "updated_at": "2023-08-25T16:14:43.645Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "879f8fc5-19d4-4453-a082-99f415eefef7",
+        "email": "Haley_Cummerata@gmail.com",
+        "firstName": "Brennan",
+        "lastName": "Champlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/964.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "196ba0db-5735-424e-a2f5-b4d1df9dd9bd",
+        "email": "Cedrick93@yahoo.com",
+        "firstName": "Missouri",
+        "lastName": "Wilkinson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25971032",
+        "tenantId": null
+      },
+      {
+        "reference": "9b32783d-eeaf-4e78-af9a-dfdc01da1a82",
+        "email": "Michaela79@gmail.com",
+        "firstName": "Maud",
+        "lastName": "Runolfsson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67295067",
+        "tenantId": null
+      },
+      {
+        "reference": "76825b19-113a-40e6-b22d-cdd7f43fc22c",
+        "email": "Kyler_McKenzie@gmail.com",
+        "firstName": "Camilla",
+        "lastName": "Botsford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/181.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a68cd21f-50d8-4da3-ad05-b018e7bcb902",
+        "email": "Adela.Bergstrom@yahoo.com",
+        "firstName": "Celia",
+        "lastName": "Spencer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/638.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "timetable": [
+      {
+        "id": "08d5edc1-09fd-4378-90a7-7ee195bac343",
+        "day": "Monday",
+        "period": 72905,
+        "subject": "Mathematics",
+        "created_at": "2023-08-25T07:45:05.705Z",
+        "updated_at": "2023-08-25T11:55:18.466Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d576928-84ca-4beb-b7f6-b1f4128b18bc",
+        "day": "Tuesday",
+        "period": 93678,
+        "subject": "Science",
+        "created_at": "2023-08-24T17:48:43.882Z",
+        "updated_at": "2023-08-25T09:12:56.937Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69fdcfd7-7218-47a6-8277-fcfb9f9e58c2",
+        "day": "Wednesday",
+        "period": 85497,
+        "subject": "English",
+        "created_at": "2023-08-25T10:37:39.685Z",
+        "updated_at": "2023-08-25T00:55:20.941Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b7e17c2-110d-4138-8b7e-dcc9358f5ab7",
+        "day": "Thursday",
+        "period": 95645,
+        "subject": "History",
+        "created_at": "2023-08-25T07:08:25.596Z",
+        "updated_at": "2023-08-25T05:22:15.084Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b1f01e58-a53e-4806-924a-dbe8a9dc8bda",
+        "day": "Friday",
+        "period": 68829,
+        "subject": "Art",
+        "created_at": "2023-08-25T12:13:03.044Z",
+        "updated_at": "2023-08-25T06:01:01.822Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fee": [
+      {
+        "id": "72c26300-59b5-4c02-8af0-00d123a8e153",
+        "amount": 17809,
+        "due_date": "2023-08-25T04:35:31.721Z",
+        "status": "Paid",
+        "created_at": "2023-08-25T10:46:05.041Z",
+        "updated_at": "2023-08-25T15:46:04.302Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a2626e45-0d09-4b8a-b834-5e4ca898a268",
+        "amount": 54302,
+        "due_date": "2023-08-25T10:01:59.328Z",
+        "status": "Pending",
+        "created_at": "2023-08-25T09:02:03.876Z",
+        "updated_at": "2023-08-25T07:00:53.595Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b4b524b-1326-41a9-90f2-a8a8587ee60a",
+        "amount": 51622,
+        "due_date": "2023-08-24T22:39:14.626Z",
+        "status": "Overdue",
+        "created_at": "2023-08-25T02:53:33.860Z",
+        "updated_at": "2023-08-24T22:09:43.910Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c21b613-994b-4837-9b16-042bae46adde",
+        "amount": 28564,
+        "due_date": "2023-08-25T02:22:39.922Z",
+        "status": "Waived",
+        "created_at": "2023-08-24T21:19:19.452Z",
+        "updated_at": "2023-08-24T17:48:32.286Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f99321cd-1d61-4d7f-83f9-560ef526be79",
+        "amount": 98681,
+        "due_date": "2023-08-25T04:33:08.964Z",
+        "status": "Refunded",
+        "created_at": "2023-08-24T20:23:52.914Z",
+        "updated_at": "2023-08-25T09:29:46.950Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "exam": [
+      {
+        "id": "fda5510d-37bc-4458-afd2-1f4b2bea3f64",
+        "name": "Midterm Exam",
+        "date": "2023-08-25T07:44:36.256Z",
+        "total_marks": 72657,
+        "obtained_marks": 96554,
+        "created_at": "2023-08-25T08:27:07.822Z",
+        "updated_at": "2023-08-25T01:31:03.132Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d6be8834-6728-4680-aeff-f022a7ae99a3",
+        "name": "Final Exam",
+        "date": "2023-08-25T16:26:03.925Z",
+        "total_marks": 31671,
+        "obtained_marks": 74481,
+        "created_at": "2023-08-25T17:24:09.961Z",
+        "updated_at": "2023-08-25T04:44:40.112Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ea2ade0-cb71-4370-a70a-1d8bf3ee21b2",
+        "name": "Unit Test",
+        "date": "2023-08-25T09:52:58.694Z",
+        "total_marks": 92322,
+        "obtained_marks": 26022,
+        "created_at": "2023-08-24T18:31:28.777Z",
+        "updated_at": "2023-08-25T17:11:57.923Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "50ffd40a-104d-42e5-930d-7fdaf3eb002d",
+        "name": "Practical Exam",
+        "date": "2023-08-25T05:56:36.111Z",
+        "total_marks": 23919,
+        "obtained_marks": 92972,
+        "created_at": "2023-08-25T01:46:42.305Z",
+        "updated_at": "2023-08-25T00:25:08.760Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9dba187a-4faa-4ed1-8e26-bd1df3da029d",
+        "name": "Mock Exam",
+        "date": "2023-08-25T12:05:30.062Z",
+        "total_marks": 43696,
+        "obtained_marks": 10148,
+        "created_at": "2023-08-24T18:04:49.423Z",
+        "updated_at": "2023-08-25T07:32:00.987Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "c2b50b70-33f4-4787-a799-b784af80c0d8",
+        "date": "2023-08-25T15:25:15.820Z",
+        "status": "Present",
+        "created_at": "2023-08-25T08:33:59.179Z",
+        "updated_at": "2023-08-25T11:58:50.316Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c5c65ba-5654-4b1e-ac45-598f3a80e30f",
+        "date": "2023-08-24T19:51:44.929Z",
+        "status": "Absent",
+        "created_at": "2023-08-24T23:28:20.666Z",
+        "updated_at": "2023-08-25T14:17:08.426Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "677d9624-9095-40a6-871c-751a8850cc48",
+        "date": "2023-08-25T10:45:48.929Z",
+        "status": "Late",
+        "created_at": "2023-08-25T02:35:01.252Z",
+        "updated_at": "2023-08-25T08:41:55.889Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "55fffb6d-3253-4c5e-9a7c-48124577c3eb",
+        "date": "2023-08-25T08:42:47.929Z",
+        "status": "Excused",
+        "created_at": "2023-08-25T13:39:27.880Z",
+        "updated_at": "2023-08-24T18:23:03.090Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e95369b-f75d-4e8f-88c9-51efe8f2286b",
+        "date": "2023-08-24T18:47:39.829Z",
+        "status": "Tardy",
+        "created_at": "2023-08-24T21:51:01.118Z",
+        "updated_at": "2023-08-25T15:17:53.991Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "772af719-a93f-4708-84e9-35eca70e191b",
+        "email": "Dolores_Powlowski79@hotmail.com",
+        "firstName": "Wiley",
+        "lastName": "Fay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/832.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "af51939f-33c3-4ace-9b3d-8b5785d14e2a",
+        "email": "Marley70@gmail.com",
+        "firstName": "German",
+        "lastName": "Fadel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/395.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f362edb4-9e2e-4099-a0b6-126027d9721c",
+        "email": "Violet.Reynolds@gmail.com",
+        "firstName": "Clovis",
+        "lastName": "Grimes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/691887",
+        "tenantId": null
+      },
+      {
+        "reference": "fe36d7e3-bcb0-4f26-8dfe-006ec2937de3",
+        "email": "Brown.Veum63@hotmail.com",
+        "firstName": "Jammie",
+        "lastName": "Upton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20801550",
+        "tenantId": null
+      },
+      {
+        "reference": "6212ed4a-a718-49ae-8a13-2f531e518797",
+        "email": "Judson.Hilll29@hotmail.com",
+        "firstName": "Katelynn",
+        "lastName": "Cremin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1093.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "timetable": [
+      {
+        "id": "15385a71-a3f6-4225-88df-c3d65a7a48b8",
+        "day": "Monday",
+        "period": 6671,
+        "subject": "Mathematics",
+        "created_at": "2023-08-25T02:01:58.624Z",
+        "updated_at": "2023-08-24T20:20:00.999Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc56c02c-e257-4e57-a41a-100a97f789d2",
+        "day": "Tuesday",
+        "period": 27181,
+        "subject": "Science",
+        "created_at": "2023-08-25T14:53:12.280Z",
+        "updated_at": "2023-08-25T16:19:46.418Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a263a1b0-faf1-43e7-9863-3c046d315db6",
+        "day": "Wednesday",
+        "period": 92300,
+        "subject": "English",
+        "created_at": "2023-08-24T19:59:52.702Z",
+        "updated_at": "2023-08-25T00:38:01.769Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8d7e734-c51b-4f4e-aa83-61d9e490e4e9",
+        "day": "Thursday",
+        "period": 92731,
+        "subject": "History",
+        "created_at": "2023-08-25T14:58:08.394Z",
+        "updated_at": "2023-08-24T22:28:25.462Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02ac1076-74d3-44e5-b9e8-13f2ad4dd971",
+        "day": "Friday",
+        "period": 57795,
+        "subject": "Geography",
+        "created_at": "2023-08-24T18:25:14.906Z",
+        "updated_at": "2023-08-25T14:09:55.237Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "fee": [
+      {
+        "id": "34aebae3-86ae-4454-8543-334c015213c6",
+        "amount": 72283,
+        "due_date": "2023-08-24T22:14:10.102Z",
+        "status": "Paid",
+        "created_at": "2023-08-24T18:12:06.471Z",
+        "updated_at": "2023-08-24T19:42:31.536Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "988e8b85-a346-444a-a39f-ad65cd7a119d",
+        "amount": 28986,
+        "due_date": "2023-08-25T00:18:02.561Z",
+        "status": "Pending",
+        "created_at": "2023-08-25T02:32:07.536Z",
+        "updated_at": "2023-08-25T04:18:32.016Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1287f47c-932a-406f-9a14-744d08996917",
+        "amount": 19114,
+        "due_date": "2023-08-25T10:24:41.036Z",
+        "status": "Overdue",
+        "created_at": "2023-08-25T14:26:11.275Z",
+        "updated_at": "2023-08-25T14:32:59.772Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "603c5d68-f3b0-4a92-a527-7c5b8a04869b",
+        "amount": 59595,
+        "due_date": "2023-08-25T13:03:16.474Z",
+        "status": "Waived",
+        "created_at": "2023-08-25T08:43:07.716Z",
+        "updated_at": "2023-08-24T20:11:03.390Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8850e8e0-dc73-43e5-8274-45d653a6d128",
+        "amount": 58632,
+        "due_date": "2023-08-25T05:02:29.669Z",
+        "status": "Refunded",
+        "created_at": "2023-08-24T20:15:06.414Z",
+        "updated_at": "2023-08-24T22:36:33.192Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "exam": [
+      {
+        "id": "9881322d-7990-4d05-8d5c-7905343c8784",
+        "name": "Midterm Exam",
+        "date": "2023-08-25T07:36:59.307Z",
+        "total_marks": 86309,
+        "obtained_marks": 19300,
+        "created_at": "2023-08-24T18:29:37.716Z",
+        "updated_at": "2023-08-24T22:52:05.272Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ee900b7-2498-449c-88d7-c88aac2dff28",
+        "name": "Final Exam",
+        "date": "2023-08-25T11:54:22.389Z",
+        "total_marks": 50457,
+        "obtained_marks": 86034,
+        "created_at": "2023-08-24T19:48:53.900Z",
+        "updated_at": "2023-08-25T10:36:02.759Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b8e63ad-8962-4d36-a8eb-be7235e2eeb6",
+        "name": "Unit Test",
+        "date": "2023-08-25T06:55:26.917Z",
+        "total_marks": 94417,
+        "obtained_marks": 17150,
+        "created_at": "2023-08-24T17:50:42.509Z",
+        "updated_at": "2023-08-24T23:57:43.729Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c9af747-a104-4355-b814-b868bd51dc41",
+        "name": "Quiz",
+        "date": "2023-08-25T06:03:50.177Z",
+        "total_marks": 7732,
+        "obtained_marks": 4151,
+        "created_at": "2023-08-24T22:34:36.900Z",
+        "updated_at": "2023-08-25T00:56:47.838Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f1db5757-4a99-4867-a8ce-8efc8947304d",
+        "name": "Practical Exam",
+        "date": "2023-08-25T15:45:42.998Z",
+        "total_marks": 49461,
+        "obtained_marks": 57397,
+        "created_at": "2023-08-24T19:00:37.439Z",
+        "updated_at": "2023-08-25T17:16:34.124Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "cb2949f2-5a9b-4dca-acb9-8470c594c2f3",
+        "date": "2023-08-25T13:35:17.204Z",
+        "status": "Present",
+        "created_at": "2023-08-25T02:53:24.185Z",
+        "updated_at": "2023-08-25T15:14:53.104Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "68db740d-1681-414c-b93b-21e76e25e179",
+        "date": "2023-08-25T06:20:20.103Z",
+        "status": "Absent",
+        "created_at": "2023-08-25T12:53:49.845Z",
+        "updated_at": "2023-08-25T01:51:13.628Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18d3bd29-84bb-43e6-8d65-7dec88817ba7",
+        "date": "2023-08-24T18:29:01.378Z",
+        "status": "Late",
+        "created_at": "2023-08-24T18:41:47.758Z",
+        "updated_at": "2023-08-24T23:52:26.670Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e408fdf3-6b7d-4d83-9c3c-6aa50ae986a1",
+        "date": "2023-08-24T22:48:34.560Z",
+        "status": "Excused",
+        "created_at": "2023-08-25T07:31:01.536Z",
+        "updated_at": "2023-08-25T08:08:54.494Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e716acb-d65a-41e5-aeea-355f94a6089b",
+        "date": "2023-08-24T21:23:38.523Z",
+        "status": "Sick",
+        "created_at": "2023-08-25T15:50:01.998Z",
+        "updated_at": "2023-08-24T23:35:00.830Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d2f4cd29-9473-41b8-9d82-987820590abc",
+        "email": "Damien_Russel@gmail.com",
+        "firstName": "Nat",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/421.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0837ed57-7734-4166-a811-941b3deaa818",
+        "email": "Holden.Will-Veum@yahoo.com",
+        "firstName": "Therese",
+        "lastName": "Marks",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1239.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d9364c29-d684-4f4a-a1b6-1527e1e67bda",
+        "email": "Alexandria_Botsford88@hotmail.com",
+        "firstName": "Coby",
+        "lastName": "Barton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/571.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d2bac80a-383b-4d5a-acaa-240ca1f59d22",
+        "email": "Nora97@gmail.com",
+        "firstName": "Lexie",
+        "lastName": "Fahey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/798.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "36fff319-e2a0-4690-9af5-95894cc0eb06",
+        "email": "Ilene.Franey74@yahoo.com",
+        "firstName": "Brock",
+        "lastName": "Lind",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/138.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
